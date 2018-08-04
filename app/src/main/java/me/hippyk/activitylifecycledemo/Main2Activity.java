@@ -1,11 +1,11 @@
 package me.hippyk.activitylifecycledemo;
 
+import android.app.Activity;
 import android.app.ActivityManager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

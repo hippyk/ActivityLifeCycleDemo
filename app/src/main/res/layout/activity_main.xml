@@ -11,6 +11,7 @@
     tools:context="me.hippyk.activitylifecycledemo.MainActivity">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -31,5 +32,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text = "启动对话框样式Activity"/>
+
+        <Button
+            android:id = "@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "启动itself"/>
     </LinearLayout>
 </RelativeLayout>
